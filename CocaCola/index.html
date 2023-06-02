@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CocaCola</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#" class="logo"><img src="logo.png" alt="logo" width="100"/></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="home-content">
+        <h3>Create Memories</h3>
+        <h1>With<span class="text"></span></h1>
+        <p>
+          1886 yılında bir öğleden sonra, Eczacı Dr. John Pemberton, hazırladığı içeceği Jacobs Eczanesi'ne götürdü. Bu yeni içecek, Jacobs Eczanesi'nde bardağı beş sentten satışa sunuldu.
+
+Dr. John Pemberton'ın muhasebecisi olan Frank Robinson içeceğe “Coca‑Cola” adını verdi ve bu adı kendi el yazısıyla yazıya döktü. Bugüne kadar Coca‑Cola adı hiç değişmeden aynı şekilde yazıldı.
+
+Pemberton'ın ölümününün ardından Atlantalı iş adamı Asa Griggs Candler, yaklaşık 2.300 dolara işin haklarını satın aldı. Candler, şirketin ilk başkanı ve markaya gerçek vizyonunu kazandıran kişi oldu.
+
+        </p>
+
+        <div class="home-sci">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>
+        <a href="#" class="btn-box">SHOP NOW</a>
+      </div>
+      <div class="imgBox">
+        <img src="Coca-Cola.jpg" class="starbucks">
+      </div>
+      <ul class="thumb">
+        <li><img src="Coca-Cola.jpg" onclick="imgSlider('Coca-Cola.jpg');changeCircleColor('#0062be')"></li>
+        <li><img src="Coca-Cola-Light.jpg" onclick="imgSlider('Coca-Cola-Light.jpg');changeCircleColor('#e60c2c')"></li>
+        <li><img src="Coca-Cola-Zero.jpg" onclick="imgSlider('Coca-Cola-Zero.jpg');changeCircleColor('#1e1e1e')"></li>
+        
+      </ul>
+    </section>
+    <footer>Thanks for 
+      Syntax Studio and coca-cola.com.tr   </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
